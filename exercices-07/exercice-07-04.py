@@ -5,4 +5,7 @@
 import random
 
 # réponse 7.4
-
+for i in range(0,101):
+    r = random.randint(1,10)
+    if(r <= 5):
+        print(r)

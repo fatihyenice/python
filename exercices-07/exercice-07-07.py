@@ -3,6 +3,9 @@
 # affichez `r` s'il est compris entre 3 et 8 inclus
 
 import random
-
+for i in range(0,101):
+    r = random.randint(1,10)
+    if(r >= 3 and r <= 8):
+        print(r)
 # réponse 7.7
 

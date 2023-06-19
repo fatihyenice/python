@@ -4,5 +4,9 @@
 
 import random
 
-# réponse 7.18
-
+# réponse 7.18 
+while True:
+    r = random.randint(1, 100)
+    print(r)
+    if r == 100:
+        break

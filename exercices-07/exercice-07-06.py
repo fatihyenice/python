@@ -3,6 +3,9 @@
 # affichez `r` s'il est égal à 1 ou égal à 10
 
 import random
-
+for i in range(0,101):
+    r = random.randint(1,10)
+    if(r == 1 or r == 10):
+        print(r)
 # réponse 7.6
 

@@ -3,6 +3,9 @@
 # affichez `r` s'il est plus grand ou égal à 6
 
 import random
-
+for i in range(0,101):
+    r = random.randint(1,10)
+    if(r >= 6):
+        print(r)
 # réponse 7.5
 
